@@ -5,9 +5,9 @@
 
     <title><?php page_Title(); ?></title>
 
-    <style><?php include 'css/styles.css'; ?>"</style>
-    <style><?php include 'css/grid-spec.css'; ?></style>
-    <style><?php include 'css/slideshow.css'; ?></style>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/grid-spec.css">
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css">
     
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
