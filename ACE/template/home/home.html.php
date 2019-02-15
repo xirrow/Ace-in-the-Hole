@@ -15,33 +15,34 @@
     <img id="mobile-img" src="<?php echo 'images/placeholder1600x500.png'; ?>">
     
     <!-- Slideshow container -->
-    <div class="slideshow-container">
+    <section class="slideshow-container">
 
         <!-- Full-width images AUTOMATIC with Manual OPTION -->
-        <div class="mySlides fade">
+        <figure class="mySlides fade">
             <img src="<?php echo 'images/placeholder1600x500.png'; ?>">
-        </div>
+        </figure>
 
-        <div class="mySlides fade">
+        <figure class="mySlides fade">
             <img src="<?php echo 'images/placeholder1600x500.png'; ?>">
-        </div>
+        </figure>
 
-        <div class="mySlides fade">
+        <figure class="mySlides fade">
             <img src="<?php echo 'images/placeholder1600x500.png'; ?>">
-        </div>
+        </figure>
 
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
         <!-- The dots/circles -->
-        <div class="container-dots">
+        <figure class="container-dots">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
+        </figure>
 
-    </div>
+    </section>
+    
     <br>
 
     <main>
@@ -75,16 +76,16 @@
             <h1>WIDGET CONTAINER</h1>
             
             <!--Weather Widget-->
-            <div class="weather-widget">
-            </div>
+            <figure class="weather-widget">
+            </figure>
 
             <!--Twitter Feed-->
-            <div class="twitter-timeline">
-            </div>
+            <figure class="twitter-timeline">
+            </figure>
 
             <!--Facebook Feed-->
-            <div class="iframe-container">
-            </div>
+            <figure class="iframe-container">
+            </figure>
 
         </section>
 

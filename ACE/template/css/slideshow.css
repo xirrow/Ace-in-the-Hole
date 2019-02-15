@@ -9,6 +9,10 @@
   margin: auto;
 }
 
+figure {
+    margin: 0;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;

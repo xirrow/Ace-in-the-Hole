@@ -1,4 +1,4 @@
-@import 'mixins.less';
+@import 'palette.less';
 
 html {}
 
@@ -126,6 +126,10 @@ i.fa-facebook-official {
   padding-left: 12px;
 }
 
+nav.container {
+  width: 100%;
+}
+
 /* Remove margins and padding from the list, and add a black background color */
 
 ul.topnav {
@@ -155,10 +159,6 @@ ul.topnav li a {
   font-size: 18px;
 }
 
-.container {
-  width: 100%;
-}
-
 /* Change background color of links on hover */
 
 ul.topnav li a:hover {
@@ -174,7 +174,7 @@ ul.topnav li.icon {
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 
-@media (max-width: 595px) {
+@media (max-width: 610px) {
 
 ul.topnav li {
   display: none;
@@ -232,7 +232,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide.
 
 */
 
-@media only screen and (min-width: 595px) {
+@media only screen and (min-width: 610px) {
 
 #mobile-img {
   display: none;        
