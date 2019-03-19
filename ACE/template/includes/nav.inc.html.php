@@ -2,7 +2,7 @@
     
     <ul class="topnav">
             <a href="<?php echo 'index.php'; ?>">
-                <img id="nav-logo" src="<?php echo 'images/logo/logo-red-01.png'; ?>">
+                <img id="nav-logo" src="<?php echo 'images/logo/ACEmultisport-logo.png'; ?>">
             </a>
             
             <section class="topnav-right">

@@ -16,7 +16,7 @@
         </p>
         
         <p class="right">
-        <img id="footer-logo" src="<?php echo 'images/logo/logo-red-01.png'; ?>">
+        <img id="footer-logo" src="<?php echo 'images/logo/ACEmultisport-logo.png'; ?>">
         </p>
        
         <p class="copyright">Copyright &copy; <?php echo date("Y"); ?> Ace in the Hole Multisport Events<br>
