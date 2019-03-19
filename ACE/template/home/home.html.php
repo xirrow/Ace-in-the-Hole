@@ -96,7 +96,6 @@
     <!--Script Links-->
     <script type="text/javascript" src="<?php echo 'js/script.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo 'js/weather-widget.js'; ?>"></script>
-    <script type="text/javascript" src="<?php echo 'js/progressBar.js'; ?>"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
