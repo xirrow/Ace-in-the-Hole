@@ -1,7 +1,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$conn=mysqli_connect("localhost","plantbas_ace_user","p4ssword!","plantbas_ace_multisport_db");
+$conn=mysqli_connect("XXXX","XXXX","XXXX","XXXX");
  
 // Check connection
 if($conn === false){
